@@ -1,0 +1,13 @@
+$("#vehical_number").hide();
+			const selectElement = document.querySelector('.typevehical');
+			selectElement.addEventListener('change', (event) => {
+			var valueee = event.target.value;
+			if(valueee == "2" || valueee == "4"){
+				$("#vehical_number").show();
+			}
+			else if(value == "novehical"){
+				$("#vehical_number").hide();
+			}
+			else{
+				$("#vehical_number").hide();
+			}
